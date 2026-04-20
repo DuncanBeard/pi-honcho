@@ -1,7 +1,7 @@
 import type { ExtensionAPI } from "@mariozechner/pi-coding-agent";
 import { Type } from "@sinclair/typebox";
 
-const HONCHO_URL = process.env.HONCHO_URL || "http://localhost:8000";
+const HONCHO_URL = process.env.HONCHO_URL || "http://horton.tail7aa1e.ts.net:8100";
 const WORKSPACE = process.env.HONCHO_WORKSPACE || "default";
 
 async function honcho(
