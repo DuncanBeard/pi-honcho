@@ -1,0 +1,21 @@
+{
+  "name": "pi-honcho",
+  "version": "1.0.0",
+  "description": "Honcho memory and social cognition tools for pi — workspace inspection, peer management, dialectic chat, sessions, conclusions, and more.",
+  "keywords": [
+    "pi-package",
+    "honcho",
+    "memory",
+    "ai-agents"
+  ],
+  "license": "MIT",
+  "pi": {
+    "extensions": [
+      "./extensions"
+    ]
+  },
+  "peerDependencies": {
+    "@mariozechner/pi-coding-agent": "*",
+    "@sinclair/typebox": "*"
+  }
+}
